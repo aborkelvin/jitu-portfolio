@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Footer() {
 
@@ -8,7 +9,7 @@ export default function Footer() {
             <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/40"></div>
 
             <div className="relative z-10 h-full flex flex-col md:flex-row gap-[52px] md:items-center md:justify-between text-brand-white font-semibold ">
-            <div className="flex items-center gap-1.5 lg:gap-2.5" >
+            <Link href="/" className="flex items-center gap-1.5 lg:gap-2.5" >
                 <h1 className="text-2xl lg:text-3xl">CLARE JITU</h1>
                 <Image
                     src="/butterfly.svg"
@@ -17,29 +18,35 @@ export default function Footer() {
                     alt="butterfly"
                     className="w-6 h-6 lg:w-8 lg:h-8 relative bottom-[1px]"
                 />
-            </div>
+            </Link>
             <div className="flex gap-5 items-center">
-                <Image
-                    src="/x.svg"
-                    width={40}
-                    height={40}
-                    alt="butterfly"
-                    className="w-10 h-10 lg:w-[52px] lg:h-[52px] relative bottom-[1px]"
-                />
-                <Image
-                    src="/behance.svg"
-                    width={40}
-                    height={40}
-                    alt="butterfly"
-                    className="w-10 h-10 lg:w-[52px] lg:h-[52px] relative bottom-[1px]"
-                />
-                <Image
-                    src="/linkedin.svg"
-                    width={40}
-                    height={40}
-                    alt="butterfly"
-                    className="w-10 h-10 lg:w-[52px] lg:h-[52px] relative bottom-[1px]"
-                />
+                <a href="https://twitter.com/ClareJitu" target="_blank">
+                    <Image
+                        src="/x.svg"
+                        width={40}
+                        height={40}
+                        alt="butterfly"
+                        className="w-10 h-10 lg:w-[52px] lg:h-[52px] relative bottom-[1px]"
+                    />
+                </a>
+                <a href="https://www.behance.net/clarejitu" target="_blank">
+                    <Image
+                        src="/behance.svg"
+                        width={40}
+                        height={40}
+                        alt="butterfly"
+                        className="w-10 h-10 lg:w-[52px] lg:h-[52px] relative bottom-[1px]"
+                    />
+                </a>
+                <a href="http://linkedin.com/in/ugochi-ezejitu" target="_blank">
+                    <Image
+                        src="/linkedin.svg"
+                        width={40}
+                        height={40}
+                        alt="butterfly"
+                        className="w-10 h-10 lg:w-[52px] lg:h-[52px] relative bottom-[1px]"
+                    />
+                </a>
             </div>
             <div className="flex flex-col gap-1 text-brand-white ">
                 <p className="font-medium text-xl lg:text-[28px]" >LET’S WORK FOR YOU</p>

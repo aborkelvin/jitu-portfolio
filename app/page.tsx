@@ -9,6 +9,7 @@ import Header from "./_components/header/header";
 import { DM_Mono } from "next/font/google";
 import Footer from "./_components/header/footer";
 import { useEffect } from "react";
+import Link from "next/link";
 
 
 const dmMono = DM_Mono({ subsets: ['latin'], weight: '400', variable: '--font-dm-mono' });
@@ -147,7 +148,7 @@ export default function Home() {
               The branding of AIESEC, a youth run non governmental organization’s national conference held in Abeokuta, was done to tell stories of leadership that shapes our future as youths. I worked on the website design and branding of this project.
             </p>
           </div>
-          <button className="flex items-center justify-center gap-2.5 mx-auto" >
+          <Link href="/projects" className="flex items-center justify-center gap-2.5 mx-auto" >
             <span className="font-medium text-2xl lg:text-3xl text-brand-white" >VIEW ALL PROJECTS</span>
             <Image
                   src="/arrow.svg"
@@ -156,7 +157,7 @@ export default function Home() {
                   alt="Contact Me"
                   className="w-6 h-6 lg:w-[40px] lg:h-[40px] cursor-pointer"
               />
-          </button>
+          </Link>
         </div>
       </section>
 
