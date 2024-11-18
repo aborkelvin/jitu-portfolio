@@ -26,21 +26,21 @@ export default function Projects() {
     
     return (
         <main>
-            <section className="py-10 px-4 lg:px-[100px]  bg-[#130520] bg-[url(/bg3.png)] bg-repeat bg-cover bg-center min-h-screen relative overflow-hidden">
+            <section className="py-10 px-4 lg:px-[100px]  bg-[#130520] bg-[url(/bg3.png)] bg-repeat bg-contain bg-center min-h-screen relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-b from-[#130520]/90 to-[#130520]/90 z-0"></div>       
                 {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30"></div>
 
                 <div className="relative z-10 h-full">
                     <Header />
-                    <div data-aos="fade-up" className="mt-[60px] lg:mt-[108px] mx-auto w-fit" >
+                    <div data-aos="fade-up" className="mt-[60px] lg:mt-[108px] mx-auto w-full relative" >
                         <div className="mb-12 lg:mb-[100px] w-fit mx-auto text-brand-white text-center">
-                            <h2 className="font-bold lg:text-4xl mb-1.5 lg:mb-2.5">
+                            <h2 className="font-bold text-xl lg:text-4xl mb-1.5 lg:mb-2.5">
                                 WHY YOU SHOULD HIRE ME
                             </h2>
                             <div className="flex items-center gap-1 lg:gap-2">
                                 <span className="flex-1 border-t border-brand-white"></span>
-                                <p className={`italic ${dmMono.className} px-2 text-xs lg:text-2xl`} style={{ fontStyle: 'italic', transform: 'skew(-8deg)' }}>
+                                <p className={`italic ${dmMono.className} px-2 text-[10px] xphones:text-[11px] md:text-xs lg:text-xl`} style={{ fontStyle: 'italic', transform: 'skew(-8deg)' }}>
                                     delivering like Hebrew women
                                 </p>
                                 <span className="flex-1 border-t border-brand-white"></span>
@@ -110,7 +110,7 @@ export default function Projects() {
                             </p>
                         </div>
                         
-                        <a href="/https://www.behance.net/clarejitu" target="_blank" className="flex items-center justify-center gap-2.5 mx-auto cursor-pointer" >
+                        <a href="https://www.behance.net/clarejitu" target="_blank" className="flex items-center justify-center gap-2.5 mx-auto cursor-pointer" >
                             <span className="font-medium text-2xl lg:text-3xl text-brand-white" >VIEW CASE STUDIES</span>
                             <Image
                                 src="/arrow.svg"
