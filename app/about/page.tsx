@@ -63,8 +63,27 @@ export default function About() {
                                 width={156}
                                 height={169}
                                 alt="Jitu Clare"
-                                className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative bottom-10 md:bottom-[100px]"
-                            />
+                                className="hidden lg:block w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative bottom-10 md:bottom-[100px]"
+                            />      
+                            <div className="block lg:hidden relative bottom-10 md:bottom-[100px] w-fit">
+                                <Image
+                                    src="/imBg.jpg"
+                                    width={156}
+                                    height={169}
+                                    alt="Jitu Clare"
+                                    className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative "
+                                />
+                                <Image
+                                    src="/profile/4.jpeg"
+                                    width={156}
+                                    height={169}
+                                    alt="Jitu Clare"
+                                    className="w-[90%] h-[65%] absolute top-2.5 md:top-3 lg:top-3.5 xl:top-4 left-1/2 transform -translate-x-1/2 object-cover object-top"
+                                />
+                                <h2 className="absolute bottom-4 md:bottom-7 lg:bottom-10 font-medium text-xl phones:text-[22px] md:text-[29px] lg:text-[40px] text-center left-1/2 transform -translate-x-1/2 w-[90%] ">
+                                    BAKE
+                                </h2>
+                            </div>
                         </div>
                         <div data-aos = "fade-left" className="max-w-[90%] md:max-w-[480px] lg:max-w-[615px] mx-auto md:mx-0 md:ml-auto relative -bottom-5 md:bottom-36 flex flex-col xphones:pr-5" >
                             <div className="mr-auto z-10 max-w-[213px] md:max-w-[320px] lg:max-w-[410px] border border-brand-white rounded-md lg:rounded-lg p-3 lg:p-4 w-fit" >
@@ -80,8 +99,27 @@ export default function About() {
                                 width={156}
                                 height={169}
                                 alt="Jitu Clare"
-                                className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] ml-auto relative bottom-10 md:bottom-[100px]"
+                                className="hidden w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] ml-auto relative bottom-10 md:bottom-[100px]"
                             />
+                            <div className="block relative bottom-10 md:bottom-[100px] ml-auto w-fit">
+                                <Image
+                                    src="/imBg.jpg"
+                                    width={156}
+                                    height={169}
+                                    alt="Jitu Clare"
+                                    className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative "
+                                />
+                                <Image
+                                    src="/profile/5.jpeg"
+                                    width={156}
+                                    height={169}
+                                    alt="Jitu Clare"
+                                    className="w-[90%] h-[65%] absolute top-2.5 md:top-3 lg:top-3.5 xl:top-4 left-1/2 transform -translate-x-1/2 object-cover object-top"
+                                />
+                                <h2 className="absolute bottom-4 md:bottom-7 lg:bottom-10 font-medium text-xl phones:text-[22px] md:text-[29px] lg:text-[40px] text-center left-1/2 transform -translate-x-1/2 w-[90%] ">
+                                    SPORTS
+                                </h2>
+                            </div>
                         </div>
                         <div data-aos = "fade-right" className="max-w-[90%] md:max-w-[480px] lg:max-w-[615px] mx-auto md:mx-0 relative -bottom-9 md:bottom-60 flex flex-col xphones:pr-5" >
                             <div className="ml-auto z-10 max-w-[213px] md:max-w-[320px] lg:max-w-[410px] border border-brand-white rounded-md lg:rounded-lg p-3 lg:p-4 w-fit" >
@@ -97,10 +135,29 @@ export default function About() {
                                 width={156}
                                 height={169}
                                 alt="Jitu Clare"
-                                className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative bottom-10 md:bottom-[100px]"
+                                className="hidden lg:block w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative bottom-10 md:bottom-[100px]"
                             />
+                            <div className="block lg:hidden relative bottom-10 md:bottom-[100px] w-fit">
+                                <Image
+                                    src="/imBg.jpg"
+                                    width={156}
+                                    height={169}
+                                    alt="Jitu Clare"
+                                    className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative "
+                                />
+                                <Image
+                                    src="/profile/6.jpeg"
+                                    width={156}
+                                    height={169}
+                                    alt="Jitu Clare"
+                                    className="w-[90%] h-[65%] absolute top-2.5 md:top-3 lg:top-3.5 xl:top-4 left-1/2 transform -translate-x-1/2 object-cover "
+                                />
+                                <h2 className="absolute bottom-4 md:bottom-7 lg:bottom-10 font-medium text-xl phones:text-[22px] md:text-[29px] lg:text-[40px] text-center left-1/2 transform -translate-x-1/2 w-[90%] ">
+                                    SEND A DM
+                                </h2>
+                            </div>
                         </div>
-                        <a href="https://www.behance.net/clarejitu" target="_blank" className="mt-10 md:-mt-52 flex flex-col-reverse md:flex-row items-center justify-center gap-2.5 mx-auto cursor-pointer" >
+                        <a href="https://www.instagram.com/clares_treat?igsh=MXRvZ202ZDJyN2djdw==" target="_blank" className="mt-10 md:-mt-52 flex flex-col-reverse md:flex-row items-center justify-center gap-2.5 mx-auto cursor-pointer" >
                             <span className="font-medium text-2xl lg:text-3xl text-brand-white text-center" >YOU CAN ALSO SUPPORT CLARE’S TREAT</span>
                             <Image
                                 src="/arrow.svg"

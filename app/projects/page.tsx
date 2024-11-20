@@ -48,25 +48,29 @@ export default function Projects() {
                         </div>
 
                         <div data-aos = "fade-up-right" className="mb-16 lg:mb-[100px] flex flex-col md:flex-row items-center gap-6 md:gap-10 lg:justify-between" >
-                            <Image
-                            src="/achebe.svg"
-                            width={343}
-                            height={230}
-                            alt="Jitu Clare"
-                            className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
-                            />
+                            <a href="https://achebe-net.vercel.app/" target="_blank" className="block w-full h-[230px] md:min-w-[320px] md:h-[220px] lg:min-w-[405px] lg:h-[264px] xl:w-[100%]">
+                                <Image
+                                    src="/achebe.svg"
+                                    width={343}
+                                    height={230}
+                                    alt="Jitu Clare"
+                                    className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
+                                />
+                            </a>
                             <p className="text-base font-medium md:text-lg lg:text-2xl text-brand-white" >
                             Achebe.net is the digital twin of the cultural icon ‘Chinua Achebe’. The goal of this project was to simulate interactions between users and  Chinua Achebe questions and also get his opinion about the decentralized world.
                             </p>
                         </div>
                         <div data-aos = "fade-up-left" className="mb-20 lg:mb-[100px] flex flex-col md:flex-row-reverse items-center gap-6 lg:gap-10 lg:justify-between" >
-                            <Image
-                            src="/bridge.svg"
-                            width={343}
-                            height={230}
-                            alt="Jitu Clare"
-                            className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
-                            />
+                            <a href="https://nc-abeokuta-2024.vercel.app/" target="_blank" className="block w-full h-[230px] md:min-w-[320px] md:h-[220px] lg:min-w-[405px] lg:h-[264px] xl:w-[100%]">
+                                <Image
+                                    src="/bridge.svg"
+                                    width={343}
+                                    height={230}
+                                    alt="Jitu Clare"
+                                    className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
+                                />
+                            </a>
                             <p className="text-base font-medium md:text-lg lg:text-2xl text-brand-white" >
                             The branding of AIESEC, a youth run non governmental organization’s national conference held in Abeokuta, was done to tell stories of leadership that shapes our future as youths. I worked on the website design and branding of this project.
                             </p>
@@ -74,37 +78,43 @@ export default function Projects() {
 
                         {/* Templates */}
                         <div data-aos = "fade-up-right" className="mb-16 lg:mb-[100px] flex flex-col md:flex-row items-center gap-6 md:gap-10 lg:justify-between" >
-                            <Image
-                            src="/nts.svg"
-                            width={343}
-                            height={230}
-                            alt="Jitu Clare"
-                            className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
-                            />
+                            <a href="https://ntsenugu.vercel.app/" target="_blank" className="block w-full h-[230px] md:min-w-[320px] md:h-[220px] lg:min-w-[405px] lg:h-[264px] xl:w-[100%]">
+                                <Image
+                                    src="/nts.svg"
+                                    width={343}
+                                    height={230}
+                                    alt="Jitu Clare"
+                                    className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
+                                />
+                            </a>
                             <p className="text-base font-medium md:text-lg lg:text-2xl text-brand-white" >
                                 I designed the registration website of an organization’s National Training Seminar held in Enugu. The website was designed to give a gaming contest vibe as specified in the design brief. 
                             </p>
                         </div>
                         <div data-aos = "fade-up-left" className="mb-20 lg:mb-[100px] flex flex-col md:flex-row-reverse items-center gap-6 lg:gap-10 lg:justify-between" >
-                            <Image
-                            src="/winter.svg"
-                            width={343}
-                            height={230}
-                            alt="Jitu Clare"
-                            className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
-                            />
+                            <a href="https://ncjos2024.netlify.app/?fbclid=PAAabSRVMsG9id2Y1N0pRVryll8F21ikv9oBSr2OoGr5Bv3H6A0YtyiNn84dU_aem_ARhmIeaP5NDDtC9bB_FA7t7eVA4JOYHNQ7muJ_hiIiPZjfYadaePIiyIE32IkPxIKnU" target="_blank" className="block w-full h-[230px] md:min-w-[320px] md:h-[220px] lg:min-w-[405px] lg:h-[264px] xl:w-[100%]">
+                                <Image
+                                    src="/winter.svg"
+                                    width={343}
+                                    height={230}
+                                    alt="Jitu Clare"
+                                    className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
+                                />
+                            </a>
                             <p className="text-base font-medium md:text-lg lg:text-2xl text-brand-white" >
                                 ‘Winter is Coming’, the theme of the congress held in Jos. While designing the website, i ensured that it contained elements that depicts the cold weather in Jos which aligns with the theme of the congress.
                             </p>
                         </div>
                         <div data-aos = "fade-up-right" className="mb-16 lg:mb-[100px] flex flex-col md:flex-row items-center gap-6 md:gap-10 lg:justify-between" >
-                            <Image
-                            src="/aihelper.svg"
-                            width={343}
-                            height={230}
-                            alt="Jitu Clare"
-                            className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
-                            />
+                            <a href="https://adventurous-words-205646.framer.app/" target="_blank" className="block w-full h-[230px] md:min-w-[320px] md:h-[220px] lg:min-w-[405px] lg:h-[264px] xl:w-[100%]">
+                                <Image
+                                    src="/aihelper.svg"
+                                    width={343}
+                                    height={230}
+                                    alt="Jitu Clare"
+                                    className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
+                                />
+                            </a>
                             <p className="text-base font-medium md:text-lg lg:text-2xl text-brand-white" >
                                 AI Helper is an assistant that helps tech and non tech users manage tasks and offers recommendations as well that could boost productivity while achieving their daily task target. 
                             </p>

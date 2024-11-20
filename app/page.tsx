@@ -36,14 +36,28 @@ export default function Home() {
 
         <div className="relative z-10 h-full">
           <Header />
-          <div data-aos="fade-up" className="mt-[80px] lg:mt-[108px] 2xl:mt-[150px] mx-auto w-fit" >
-            <div className="mb-10 lg:mb-11">
+          <div data-aos="fade-up" className="mt-[80px] lg:mt-[108px] 2xl:mt-[150px] mx-auto w-fit" >           
+            <div className="mb-10 lg:mb-11 relative w-fit mx-auto rotate-6">
               <Image
                 src="/ug.svg"
                 width={258}
                 height={280}
                 alt="Jitu Clare"
-                className="w-[258px] h-[280px] mx-auto"
+                className="hidden lg:block w-[258px] h-[280px] mx-auto"
+              />
+              <Image
+                src="/imgBg.jpg"
+                width={258}
+                height={280}
+                alt="Jitu Clare"
+                className="lg:hidden w-[258px] h-[280px] mx-auto relative"
+              />
+              <Image
+                src="/profile/1.jpeg"
+                width={156}
+                height={169}
+                alt="Jitu Clare"
+                className="lg:hidden w-[90%] h-[65%] absolute top-4 md:top-3 lg:top-3.5 xl:top-4 left-1/2 transform -translate-x-1/2 object-cover"
               />
             </div>
           
@@ -83,8 +97,27 @@ export default function Home() {
               width={156}
               height={169}
               alt="Jitu Clare"
-              className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative bottom-10 md:bottom-[100px]"
+              className="hidden lg:block w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative bottom-10 md:bottom-[100px]"
             />
+            <div className="block lg:hidden relative bottom-10 md:bottom-[100px] w-fit">
+              <Image
+                src="/imBg.jpg"
+                width={156}
+                height={169}
+                alt="Jitu Clare"
+                className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative "
+              />
+              <Image
+                src="/profile/2.jpeg"
+                width={156}
+                height={169}
+                alt="Jitu Clare"
+                className="w-[90%] h-[65%] absolute top-2.5 md:top-3 lg:top-3.5 xl:top-4 left-1/2 transform -translate-x-1/2 object-cover"
+              />
+              <h2 className="absolute bottom-4 md:bottom-7 lg:bottom-10 font-medium text-2xl md:text-3xl lg:text-[40px] text-center left-1/2 transform -translate-x-1/2 w-[90%] ">
+                CLARE JITU
+              </h2>
+            </div>
           </div>
           <div data-aos = "fade-left" className="max-w-[90%] md:max-w-[480px] lg:max-w-[615px] mx-auto md:mx-0 md:ml-auto relative bottom-1 md:bottom-20 flex flex-col xphones:pr-5" >
             <div className="mr-auto z-10 max-w-[213px] md:max-w-[320px] lg:max-w-[410px] border border-brand-white rounded-md lg:rounded-lg p-3 lg:p-4 w-fit" >
@@ -100,8 +133,27 @@ export default function Home() {
               width={156}
               height={169}
               alt="Jitu Clare"
-              className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] ml-auto relative bottom-10 md:bottom-[100px]"
+              className="hidden lg:block w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] ml-auto relative bottom-10 md:bottom-[100px]"
             />
+            <div className="block lg:hidden relative bottom-10 md:bottom-[100px] ml-auto w-fit">
+              <Image
+                src="/imBg.jpg"
+                width={156}
+                height={169}
+                alt="Jitu Clare"
+                className="w-[156px] h-[169px] md:w-[200px] md:h-[220px] lg:w-[258px] lg:h-[280px] relative "
+              />
+              <Image
+                src="/profile/3.jpeg"
+                width={156}
+                height={169}
+                alt="Jitu Clare"
+                className="w-[90%] h-[65%] absolute top-2.5 md:top-3 lg:top-3.5 xl:top-4 left-1/2 transform -translate-x-1/2 object-cover object-top"
+              />
+              <h2 className="absolute bottom-4 md:bottom-7 lg:bottom-10 font-medium text-xl phones:text-[22px] md:text-[29px] lg:text-[40px] text-center left-1/2 transform -translate-x-1/2 w-[90%] ">
+                LET’S WORK
+              </h2>
+            </div>
           </div>
         </div>
       </section>
@@ -125,25 +177,29 @@ export default function Home() {
               </div>
           </div>
           <div data-aos = "fade-up-right" className="mb-16 lg:mb-[100px] flex flex-col md:flex-row items-center gap-6 md:gap-10 lg:justify-between" >
-            <Image
-              src="/achebe.svg"
-              width={343}
-              height={230}
-              alt="Jitu Clare"
-              className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
-            />
+            <a href="https://achebe-net.vercel.app/" target="_blank" className="block w-full h-[230px] md:min-w-[320px] md:h-[220px] lg:min-w-[405px] lg:h-[264px] xl:w-[100%]">
+              <Image
+                src="/achebe.svg"
+                width={343}
+                height={230}
+                alt="Jitu Clare"
+                className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
+              />
+            </a>
             <p className="text-base font-medium md:text-lg lg:text-2xl text-brand-white" >
               Achebe.net is the digital twin of the cultural icon ‘Chinua Achebe’. The goal of this project was to simulate interactions between users and  Chinua Achebe questions and also get his opinion about the decentralized world.
             </p>
           </div>
           <div data-aos = "fade-up-left" className="mb-20 lg:mb-[100px] flex flex-col md:flex-row-reverse items-center gap-6 lg:gap-10 lg:justify-between" >
-            <Image
-              src="/bridge.svg"
-              width={343}
-              height={230}
-              alt="Jitu Clare"
-              className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
-            />
+            <a href="https://nc-abeokuta-2024.vercel.app/" target="_blank" className="block w-full h-[230px] md:min-w-[320px] md:h-[220px] lg:min-w-[405px] lg:h-[264px] xl:w-[100%]">
+              <Image
+                src="/bridge.svg"
+                width={343}
+                height={230}
+                alt="Jitu Clare"
+                className="w-full h-[230px] md:w-[320px] md:h-[220px] lg:w-[405px] lg:h-[264px] xl:w-[100%]"
+              />
+            </a>
             <p className="text-base font-medium md:text-lg lg:text-2xl text-brand-white" >
               The branding of AIESEC, a youth run non governmental organization’s national conference held in Abeokuta, was done to tell stories of leadership that shapes our future as youths. I worked on the website design and branding of this project.
             </p>
